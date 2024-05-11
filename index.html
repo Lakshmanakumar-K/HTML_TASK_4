@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Card</title>
+    <style>
+        body {
+            background-color: skyblue;
+        }
+
+        * {
+            margin: 0px;
+        }
+
+        .main {
+            color: blue;
+            border: 5px solid aqua;
+            height: 900px;
+            width : 600px;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .red {
+            color: red;
+        }
+        .child{
+            position:relative;
+            top:30px;
+            color:black;
+            border:2px solid black;
+            width:90%;
+            text-align: center;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" style="margin:500px">
+        <h1 style="text-align: center">Software Request</h1>
+        <div style="margin:20px">
+            <label for="name" style="color:black">Name</label><span class="red">*</span><br>
+            <input type="text" name="" id="name" style="width:90%">
+        </div>
+        <div style="margin:20px">
+            <label for="name" style="color:black">Employee Id</label><span class="red">*</span><br>
+            <input type="text" name="" id="name" style="width:90%">
+        </div>
+        <div style="margin:20px">
+            <label for="name" style="color:black">Email</label><span class="red">*</span><br>
+            <input type="text" name="" id="name" style="width:90%">
+        </div>
+        <div style="margin:20px">
+            <label for="name" style="color:black">Mobile no/ Extn no</label><br>
+            <input type="text" name="" id="name" style="width:90%">
+        </div>
+        <div style="margin:20px">
+            <p style="color:black">Which software do you require?<span class="red">*</span></p>
+            <div style="margin-top:10px">
+            <input type="checkbox" name="" id=""><span style="color:black"> Software A</span>
+            </div>
+            <div style="margin-top:10px">
+                <input type="checkbox" name="" id=""><span style="color:black"> Software B</span>
+            </div>
+            <div style="margin-top:10px">
+                <input type="checkbox" name="" id=""><span style="color:black"> Software C</span>
+            </div>
+        </div>
+        <div style="margin:20px">
+            <p style="color:black">How urgently do you need it?<span class="red">*</span></p>
+            <div style="margin-top:10px">
+            <input type="checkbox" name="" id=""><span style="color:black"> As soon as possible</span>
+            </div>
+            <div style="margin-top:10px">
+                <input type="checkbox" name="" id=""><span style="color:black"> Withi 2 weeks</span>
+            </div>
+            <div style="margin-top:10px">
+                <input type="checkbox" name="" id=""><span style="color:black"> I'm in no hurry</span>
+            </div>
+        </div>
+        <div>
+            <button name="Request" class="child">Request</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
